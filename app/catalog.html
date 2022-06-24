@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nerds Catalog</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <!-- Шапка -->
+  <header class="header">
+    <!-- Контейнер -->
+    <div class="container">
+      <!-- Внутренняя обертка -->
+      <div class="header__inner">
+        <!-- Логотип -->
+        <a class="logo">
+          <img class="logo__image" src="images/nerds-logo.svg" width="160" height="65" alt="nerds-logo">
+        </a>
+        <!-- Навигация -->
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Студия</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Клиенты</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Магазин</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Личный кабинет -->
+        <div class="login">
+          <ul class="login__list">
+            <li class="login__item">
+              <a class="login__link" href="">Корзина</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Заголовок страниц -->
+      <h2 class="header__page-title">Магазин готовых шаблонов</h2>
+    </div>
+  </header>
+  <!-- Основной контент -->
+  <main class="main">
+    <!-- Контейнер -->
+    <div class="container">
+      <!-- Каталог товаров -->
+      <section class="catalog">
+        <div class="catalog__inner">
+          <!-- Фильтр товаров -->
+          <div class="filter__wrapper">
+            <form class="filter" action=""></form>
+          </div>
+          <!-- Товары -->
+          <div class="product__wrapper">
+            <div class="product">
+              <!-- Сортировка товаров-->
+              <div class="sorting__wrapper">
+                <div class="sorting">
+                  <h4 class="sorting__title">Сортировка:</h4>
+                  <ul class="sorting__list">
+                    <li class="sorting__item">
+                      <button class="sorting__button sorting__button--active" type="button">По цене</button>
+                    </li>
+                    <li class="sorting__item">
+                      <button class="sorting__button" type="button">По типу</button>
+                    </li>
+                    <li class="sorting__item">
+                      <button class="sorting__button" type="button">По названию</button>
+                    </li>
+                  </ul>
+                  <div class="sorting__arrows">
+                    <button class="sorting__arrow" type="button"></button>
+                    <button class="sorting__arrow" type="button"></button>
+                  </div>
+                </div>
+              </div>
+              <!-- Список товаров -->
+              <ul class="product__list">
+                <li class="product__item">
+                  <img class="product__image" src="" alt="">
+                  <div class="product__info">
+                    <b class="product__title">Sedona</b>
+                    <p class="product__text">Информационный сайт для туристов</p>
+                    <button class="product__price button">9 900 руб.</button>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <img class="product__image" src="" alt="">
+                  <div class="product__info">
+                    <b class="product__title">Pink App</b>
+                    <p class="product__text">Продуктовый лендинг приложения для iOS и Android</p>
+                    <button class="product__price button">9 900 руб.</button>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <img class="product__image" src="" alt="">
+                  <div class="product__info">
+                    <b class="product__title">Barbershop</b>
+                    <p class="product__text">Сайт салона красоты. Для мужчин, да.</p>
+                    <button class="product__price button">9 900 руб.</button>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <img class="product__image" src="" alt="">
+                  <div class="product__info">
+                    <b class="product__title">MISHKA</b>
+                    <p class="product__text">Интернет-магазин вязаных игрушек</p>
+                    <button class="product__price button">9 900 руб.</button>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <img class="product__image" src="" alt="">
+                  <div class="product__info">
+                    <b class="product__title">A Plus</b>
+                    <p class="product__text">Лендинг курсов повышения квалификации</p>
+                    <button class="product__price button">9 900 руб.</button>
+                  </div>
+                </li>
+                <li class="product__item">
+                  <img class="product__image" src="" alt="">
+                  <div class="product__info">
+                    <b class="product__title">КВАСТ</b>
+                    <p class="product__text">Промо-сайт производителя крафтового кваса</p>
+                    <button class="product__price button">9 900 руб.</button>
+                  </div>
+                </li>
+              </ul>
+              <!-- Пагинатор -->
+              <div class="paginator__wrapper">
+                <div class="paginator">
+                  <ul class="paginator__list">
+                    <li class="paginator__item">
+                      <a class="paginator__link button" href="#">1</a>
+                    </li>
+                    <li class="paginator__item">
+                      <a class="paginator__link button" href="#">2</a>
+                    </li>
+                    <li class="paginator__item">
+                      <a class="paginator__link button" href="#">3</a>
+                    </li>
+                  </ul>
+                  <a class="paginator__button button" href="#">следующая</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Контакты -->
+    <section class="contacts">
+      <div class="container">
+        <div class="contacts__inner">
+          <!-- Контактные данные -->
+          <div class="contacts__info">
+            <span class="contacts__name">NЁRDS DESIGN STUDIO</span>
+            <p class="contacts__address">
+              191186, Санкт-Петербург,
+              ул. Б. Конюшенная, д. 19/8
+            </p>
+            <a class="contacts__phone" href="">тел. +7 (812) 275-75-75</a>
+            <button class="contacts__button button" type="button">Напишите нам</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <!-- Социальные сети -->
+        <ul class="social">
+          <li class="social__item">
+            <a class="social__link" href=""></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href=""></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href=""></a>
+          </li>
+        </ul>
+        <!-- Слоган -->
+        <div class="footer__slogan">
+          <h3 class="footer__title">Давайте дружить, это выгодно!</h3>
+          <p class="footer__text">
+            Скидка 10% для друзей из социальных сетей.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Скрипты -->
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
