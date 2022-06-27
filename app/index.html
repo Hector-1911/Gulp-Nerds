@@ -37,13 +37,9 @@
             </li>
           </ul>
         </nav>
-        <!-- Личный кабинет -->
-        <div class="login">
-          <ul class="login__list">
-            <li class="login__item">
-              <a class="login__link" href="">Корзина</a>
-            </li>
-          </ul>
+        <!-- Корзина -->
+        <div class="cart">
+          <a class="cart__link" href="#">Корзина</a>
         </div>
       </div>
     </div>
@@ -208,7 +204,7 @@
               191186, Санкт-Петербург,
               ул. Б. Конюшенная, д. 19/8
             </p>
-            <a class="contacts__phone" href="">тел. +7 (812) 275-75-75</a>
+            <a class="contacts__phone" href="tel:78122757575">тел. +7 (812) 275-75-75</a>
             <button class="contacts__button button" type="button">Напишите нам</button>
           </div>
         </div>
@@ -241,6 +237,33 @@
       </div>
     </div>
   </footer>
+  <!-- Всплывающее окно обратной связи -->
+  <div class="popup__wrapper">
+    <section class="popup">
+      <h2 class="popup__title">Напишите нам</h2>
+      <!-- Форма обратной связи -->
+      <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
+        <div class="feedback__field">
+          <p class="feedback__row">
+            <label class="feedback__label" for="feedback__name">Ваше имя:</label>
+            <input class="feedback__input" name="name" type="text" id="feedback__name" placeholder="Имя Фамилия">
+          </p>
+          <p class="feedback__row">
+            <label class="feedback__label" for="feedback__email">Ваш e-mail:</label>
+            <input class="feedback__input" name="email" type="email" id="feedback__email"
+              placeholder="email@example.com">
+          </p>
+        </div>
+        <div class="feedback__field">
+          <p class="feedback__row">
+            <label class="feedback__label" for="feedback__text">Текст письма:</label>
+            <textarea class="feedback__text" name="text" id="feedback__text" placeholder="В свободной форме"></textarea>
+          </p>
+        </div>
+        <button class="feedback__button" type="submit">Отправить</button>
+      </form>
+    </section>
+  </div>
 
   <!-- Скрипты -->
   <script src="js/main.min.js"></script>
