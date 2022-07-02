@@ -47,7 +47,7 @@ function scripts() {
 
 function styles() {
   return gulp.src('app/scss/style.scss')
-      .pipe(scss({outputStyle: 'compressed'}))
+      .pipe(scss()) //{outputStyle: 'compressed'}
       .pipe(concat('style.min.css'))
       .pipe(autoprefixer({
         overrideBrowserslist: ['last 10 version'],
