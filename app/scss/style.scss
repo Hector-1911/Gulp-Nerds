@@ -22,7 +22,7 @@ body {
   line-height: 24px;
   font-weight: 300;
   color: $main-color;
-  
+
   background-color: #ffffff;
 }
 
@@ -63,4 +63,184 @@ a {
 
   border: none;
   background-color: #fb565a;
+}
+
+// Шапка
+.header {
+  background-color: #eeeeee;
+}
+
+// Верхняя панель
+.header__top {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+// Навигация
+.navigation {
+  &__list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  &__link {
+    color: $main-color;
+  }
+}
+
+// Корзина
+.cart {
+  &__link {
+    color: $main-color;
+  }
+}
+
+// Нижняя панель
+
+// Преимущества
+.advantages {
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__title {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 400;
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 24px;
+    color: $second-color;
+  }
+}
+
+// Основной контент
+
+// Услуги
+.services {
+  &__list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  &__title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 24px;
+    color: $second-color;
+  }
+}
+
+// Студия
+.studio {
+  &__title {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 400;
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 24px;
+    color: $second-color;
+  }
+
+  // О нас
+  &__services {
+    &-title {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 700;
+    }
+
+    &-text {
+      display: block;
+
+      color: $second-color;
+    }
+  }
+
+  // Статистика студии
+  &__stats {
+    &-title {
+      font-weight: 700;
+    }
+
+    &-percent {
+      font-size: 45px;
+      line-height: 10px;
+    }
+
+    &-text {
+      line-height: 18px;
+      color: $second-color;
+    }
+  }
+}
+
+// Контакты
+.contacts {
+  &__name {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  &__address {
+    line-height: 18px;
+    color: #666666;
+  }
+  &__phone {
+    line-height: 18px;
+    color: #666666;
+  }
+}
+
+// Футер
+.footer {
+  &__title {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #444444;
+  }
+}
+
+// Модальные окна
+
+// Попап
+.popup {
+  &__title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+// Форма обратной связи
+.feedback {
+  &__label {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    color: $main-color;
+  }
 }

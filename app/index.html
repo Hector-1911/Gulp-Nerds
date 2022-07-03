@@ -18,8 +18,8 @@
   <header class="header">
     <!-- Контейнер -->
     <div class="container">
-      <!-- Внутренняя обертка -->
-      <div class="header__inner">
+      <!-- Верхняя панель -->
+      <div class="header__top">
         <!-- Логотип -->
         <a class="logo">
           <img class="logo__image" src="images/svg/nerds-logo.svg" width="160" height="65" alt="Nerds logo">
@@ -46,74 +46,77 @@
           <a class="cart__link" href="#">Корзина</a>
         </div>
       </div>
+      <!-- Нижняя панель -->
+      <div class="header__bottom">
+        <!-- Преимущества -->
+        <section class="advantages">
+          <!-- Слайдер -->
+          <div class="advantages__inner slider">
+            <ul class="advantages__list slider__list">
+              <li class="advantages__item slider__item">
+                <div class="advantages__content">
+                  <img class="advantages__image" src="images/png/index-slide-1.png" width="760" height="431"
+                    alt="Смартфоны">
+                  <h3 class="advantages__title">
+                    Долго, дорого, скрупулезно.
+                  </h3>
+                  <p class="advantages__description">
+                    Математически выверенный дизайн для вашего сайта или мобильного приложения.
+                  </p>
+                  <a class="advantages__link button" href="#">Узнать больше</a>
+                </div>
+              </li>
+              <li class="advantages__item slider__item">
+                <div class="advantages__content">
+                  <img class="advantages__image" src="images/png/index-slide-2.png" width="760" height="431"
+                    alt="Десктопы">
+                  <h3 class="advantages__title">
+                    Любим математику как никто другой
+                  </h3>
+                  <p class="advantages__description">
+                    Никакого креатива, только математические формулы для расчета идеальных пропорций.
+                  </p>
+                  <a class="advantages__link button" href="#">Узнать больше</a>
+                </div>
+              </li>
+              <li class="advantages__item slider__item">
+                <div class="advantages__content">
+                  <img class="advantages__image" src="images/png/index-slide-3.png" width="760" height="431"
+                    alt="Планшеты">
+                  <h3 class="advantages__title">
+                    Только ночь,
+                    только хардкор
+                  </h3>
+                  <p class="advantages__description">
+                    Работать днем, как все? Мы против этого.
+                    Ближе к полуночи работа только начинается.
+                  </p>
+                  <a class="advantages__link button" href="#">Узнать больше</a>
+                </div>
+              </li>
+            </ul>
+            <!-- Кнопки слайдера -->
+            <div class="advantages__toggles slider__toggles">
+              <button class="slider__toggle" type="button">1</button>
+              <button class="slider__toggle" type="button">2</button>
+              <button class="slider__toggle" type="button">3</button>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   </header>
   <!-- Основной контент -->
   <main class="main">
     <!-- Контейнер -->
     <div class="container">
-      <!-- Преимущества -->
-      <section class="advantages">
-        <!-- Слайдер -->
-        <div class="advantages__inner slider">
-          <ul class="advantages__list slider__list">
-            <li class="advantages__item slider__item">
-              <div class="advantages__content">
-                <img class="advantages__image" src="images/png/index-slide-1.png" width="760" height="431"
-                  alt="Смартфоны">
-                <h3 class="advantages__title">
-                  Долго, дорого, скрупулезно.
-                </h3>
-                <p class="advantages__description">
-                  Математически выверенный дизайн для вашего сайта или мобильного приложения.
-                </p>
-                <a class="advantages__link button" href="#">Узнать больше</a>
-              </div>
-            </li>
-            <li class="advantages__item slider__item">
-              <div class="advantages__content">
-                <img class="advantages__image" src="images/png/index-slide-2.png" width="760" height="431"
-                  alt="Десктопы">
-                <h3 class="advantages__title">
-                  Любим математику как никто другой
-                </h3>
-                <p class="advantages__description">
-                  Никакого креатива, только математические формулы для расчета идеальных пропорций.
-                </p>
-                <a class="advantages__link button" href="#">Узнать больше</a>
-              </div>
-            </li>
-            <li class="advantages__item slider__item">
-              <div class="advantages__content">
-                <img class="advantages__image" src="images/png/index-slide-3.png" width="760" height="431"
-                  alt="Планшеты">
-                <h3 class="advantages__title">
-                  Только ночь,
-                  только хардкор
-                </h3>
-                <p class="advantages__description">
-                  Работать днем, как все? Мы против этого.
-                  Ближе к полуночи работа только начинается.
-                </p>
-                <a class="advantages__link button" href="#">Узнать больше</a>
-              </div>
-            </li>
-          </ul>
-          <!-- Кнопки слайдера -->
-          <div class="advantages__toggles slider__toggles">
-            <button class="slider__toggle" type="button">1</button>
-            <button class="slider__toggle" type="button">2</button>
-            <button class="slider__toggle" type="button">3</button>
-          </div>
-        </div>
-      </section>
       <!-- Услуги -->
       <section class="services">
         <div class="services__inner">
           <ul class="services__list">
             <li class="services__item">
-              <img class="services__image" src="images/jpeg/illustration-1.jpg" width="300" height="146>
-              <h4 class=" services__title">Веб-сайты</h4>
+              <img class="services__image" src="images/jpeg/illustration-1.jpg" width="300" height="146">
+              <h4 class="services__title">Веб-сайты</h4>
               <p class="services__description">
                 Мир никогда не будет прежним после того как увидит ваш сайт!
               </p>
@@ -128,8 +131,8 @@
               <a class="services__link button" href="#">Заказать</a>
             </li>
             <li class="services__item">
-              <img class="services__image" src="images/jpeg/illustration-3.jpg" width="300" height="146>
-              <h4 class=" services__title">Презентации</h4>
+              <img class="services__image" src="images/jpeg/illustration-3.jpg" width="300" height="146">
+              <h4 class="services__title">Презентации</h4>
               <p class="services__description">
                 Вы даже не подозреваете, насколько вы изумительны!
               </p>
