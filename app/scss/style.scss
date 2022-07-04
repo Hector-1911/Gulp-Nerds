@@ -167,6 +167,7 @@ a {
       font-size: 16px;
       line-height: 24px;
       font-weight: 700;
+      text-transform: uppercase;
     }
 
     &-text {
@@ -180,6 +181,7 @@ a {
   &__stats {
     &-title {
       font-weight: 700;
+      text-transform: uppercase;
     }
 
     &-percent {
@@ -201,10 +203,12 @@ a {
     line-height: 30px;
     font-weight: 700;
   }
+
   &__address {
     line-height: 18px;
     color: #666666;
   }
+
   &__phone {
     line-height: 18px;
     color: #666666;
@@ -218,6 +222,7 @@ a {
     line-height: 36px;
     font-weight: 700;
   }
+
   &__text {
     font-size: 16px;
     line-height: 22px;
@@ -242,5 +247,142 @@ a {
     line-height: 18px;
     font-weight: 700;
     color: $main-color;
+  }
+}
+
+// Страница каталога
+
+// Шапка
+
+// Нижняя панель
+.header__page-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 400;
+}
+
+// Основной контент
+
+// Каталог товаров
+
+// Фильтр товаров
+.filter {
+  &__field {
+    margin: 0;
+    padding: 0;
+
+    border: none;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  &__label {
+    font-size: 16px;
+    line-height: 20px;
+    color: $second-color;
+  }
+
+  &__button {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $main-color;
+
+    background-color: #eeeeee;
+    border: none;
+  }
+}
+
+// Счетчик цены
+.value-range {
+  &__label {
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $second-color;
+  }
+}
+
+// Товары
+
+// Сортировка товаров
+.sorting {
+  &__title {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  &__button {
+    font: inherit;
+
+    font-size: 14px;
+    font-weight: 18px;
+    text-transform: uppercase;
+    color: $main-color;
+  }
+}
+
+// Список товаров
+.product {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  &__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 18px;
+    color: #666666;
+  }
+}
+
+// Пагинатор
+.paginator {
+  &__list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  &__link {
+    font: inherit;
+
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $main-color;
+
+    background-color: #eeeeee;
   }
 }

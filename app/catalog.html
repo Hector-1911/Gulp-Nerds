@@ -18,8 +18,8 @@
   <header class="header">
     <!-- Контейнер -->
     <div class="container">
-      <!-- Внутренняя обертка -->
-      <div class="header__inner">
+      <!-- Верхняя панель -->
+      <div class="header__top">
         <!-- Логотип -->
         <a class="logo">
           <img class="logo__image" src="images/svg/nerds-logo.svg" width="160" height="65" alt="Nerds logo">
@@ -46,8 +46,11 @@
           <a class="cart__link" href="#">Корзина</a>
         </div>
       </div>
-      <!-- Заголовок страниц -->
-      <h2 class="header__page-title">Магазин готовых шаблонов</h2>
+      <!-- Нижняя панель -->
+      <div class="header__bottom">
+        <!-- Заголовок страниц -->
+        <h2 class="header__page-title">Магазин готовых шаблонов</h2>
+      </div>
     </div>
   </header>
   <!-- Основной контент -->
@@ -83,6 +86,7 @@
                   </div>
                 </div>
               </fieldset>
+              <!-- Выбор Сетки -->
               <fieldset class="filter__field">
                 <legend class="filter__title">Сетка:</legend>
                 <ul class="filter__list">
@@ -100,6 +104,7 @@
                   </li>
                 </ul>
               </fieldset>
+              <!-- Выбор особенностей -->
               <fieldset class="filter__field">
                 <legend class="filter__title">Особенности:</legend>
                 <ul class="filter__list">
@@ -129,21 +134,21 @@
             </form>
           </div>
           <!-- Товары -->
-          <div class="product__wrapper">
-            <div class="product">
+          <div class="products__wrapper">
+            <div class="products">
               <!-- Сортировка товаров-->
               <div class="sorting__wrapper">
                 <div class="sorting">
                   <h4 class="sorting__title">Сортировка:</h4>
                   <ul class="sorting__list">
                     <li class="sorting__item">
-                      <a class="sorting__button sorting__button--active" type="button">По цене</a>
+                      <a class="sorting__button sorting__button--active" href="#" type="button">По цене</a>
                     </li>
                     <li class="sorting__item">
-                      <a class="sorting__button" type="button">По типу</a>
+                      <a class="sorting__button" href="#" type="button">По типу</a>
                     </li>
                     <li class="sorting__item">
-                      <a class="sorting__button" type="button">По названию</a>
+                      <a class="sorting__button" href="#" type="button">По названию</a>
                     </li>
                   </ul>
                   <div class="sorting__arrows">
@@ -153,7 +158,7 @@
                 </div>
               </div>
               <!-- Список товаров -->
-              <ul class="product__list">
+              <ul class="product">
                 <li class="product__item">
                   <img class="product__image" src="images/jpeg/img-sedona.jpg" width="360" height="576" alt="Sedona">
                   <div class="product__info">
@@ -217,8 +222,10 @@
                     <li class="paginator__item">
                       <a class="paginator__link" href="#">3</a>
                     </li>
+                    <li class="paginator__item">
+                      <a class="paginator__link" href="#">Следующая</a>
+                    </li>
                   </ul>
-                  <a class="paginator__button" href="#">Следующая</a>
                 </div>
               </div>
             </div>

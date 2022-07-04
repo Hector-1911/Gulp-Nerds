@@ -128,6 +128,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .studio__services-text {
   display: block;
@@ -135,6 +136,7 @@ a {
 }
 .studio__stats-title {
   font-weight: 700;
+  text-transform: uppercase;
 }
 .studio__stats-percent {
   font-size: 45px;
@@ -180,4 +182,99 @@ a {
   line-height: 18px;
   font-weight: 700;
   color: #000000;
+}
+
+.header__page-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 400;
+}
+
+.filter__field {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.filter__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.filter__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.filter__label {
+  font-size: 16px;
+  line-height: 20px;
+  color: #283136;
+}
+.filter__button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #eeeeee;
+  border: none;
+}
+
+.value-range__label {
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #283136;
+}
+
+.sorting__title {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.sorting__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sorting__button {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.product {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.product__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.product__text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.paginator__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.paginator__link {
+  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #eeeeee;
 }
