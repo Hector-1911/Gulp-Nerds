@@ -1,0 +1,105 @@
+// Страница каталога //
+
+// Шапка //
+
+// Нижняя панель
+.header__page-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 400;
+}
+
+// Основной контент //
+
+// Каталог товаров
+
+// Фильтр товаров
+.filter {
+  &__field {
+    margin: 0;
+    padding: 0;
+
+    border: none;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__label {
+    line-height: 20px;
+    color: $second-color;
+  }
+
+  &__button {
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $main-color;
+
+    background-color: #eeeeee;
+    border: none;
+  }
+}
+
+// Счетчик цены
+.value-range {
+  &__label {
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $second-color;
+  }
+}
+
+// Товары
+
+// Сортировка товаров
+.sorting {
+  &__title {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__button {
+    font: inherit;
+
+    font-size: 14px;
+    font-weight: 18px;
+    text-transform: uppercase;
+    color: $main-color;
+  }
+}
+
+// Список товаров
+.product {
+  &__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    line-height: 18px;
+    color: #666666;
+  }
+}
+
+// Пагинатор
+.paginator {
+  &__link {
+    font: inherit;
+
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $main-color;
+
+    background-color: #eeeeee;
+  }
+}
