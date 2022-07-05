@@ -8,7 +8,7 @@
 // Верхняя панель
 .header__top {
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -33,7 +33,7 @@
   &__title {
     font-size: 55px;
     line-height: 55px;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   &__description {
@@ -62,7 +62,7 @@
   &__title {
     font-size: 45px;
     line-height: 45px;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   &__description {
@@ -93,6 +93,7 @@
     &-percent {
       font-size: 45px;
       line-height: 10px;
+      font-weight: 700;
     }
 
     &-text {
@@ -142,6 +143,7 @@
   &__title {
     font-size: 45px;
     line-height: 45px;
+    font-weight: 500;
   }
 }
 

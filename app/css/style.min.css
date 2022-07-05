@@ -18,7 +18,7 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #000000;
   background-color: #ffffff;
 }
@@ -68,7 +68,7 @@ h6 {
   font: inherit;
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
@@ -83,7 +83,7 @@ h6 {
 
 .header__top {
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -98,7 +98,7 @@ h6 {
 .advantages__title {
   font-size: 55px;
   line-height: 55px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .advantages__description {
   color: #283136;
@@ -117,7 +117,7 @@ h6 {
 .studio__title {
   font-size: 45px;
   line-height: 45px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .studio__description {
   color: #283136;
@@ -137,6 +137,7 @@ h6 {
 .studio__stats-percent {
   font-size: 45px;
   line-height: 10px;
+  font-weight: 700;
 }
 .studio__stats-text {
   line-height: 18px;
@@ -170,6 +171,7 @@ h6 {
 .popup__title {
   font-size: 45px;
   line-height: 45px;
+  font-weight: 500;
 }
 
 .feedback__label {
@@ -181,7 +183,7 @@ h6 {
 .header__page-title {
   font-size: 55px;
   line-height: 55px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .filter__field {
@@ -201,7 +203,7 @@ h6 {
 }
 .filter__button {
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   color: #000000;
   background-color: #eeeeee;
@@ -242,7 +244,7 @@ h6 {
 .paginator__link {
   font: inherit;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   color: #000000;
   background-color: #eeeeee;
