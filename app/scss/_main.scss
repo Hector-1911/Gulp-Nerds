@@ -7,13 +7,31 @@
 
 // Верхняя панель
 .header__top {
+  padding-top: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   line-height: 30px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
+// Логотип
+.logo {
+  width: 160px;
+}
+
 // Навигация
 .navigation {
+  width: 440px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__link {
     color: $main-color;
   }
@@ -21,6 +39,8 @@
 
 // Корзина
 .cart {
+  width: 140px;
+
   &__link {
     color: $main-color;
   }
@@ -45,6 +65,17 @@
 
 // Услуги
 .services {
+  padding: 80px 0;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 300px;
+  }
+
   &__title {
     font-size: 24px;
     line-height: 30px;
@@ -59,6 +90,18 @@
 
 // Студия
 .studio {
+  padding-top: 40px;
+  padding-bottom: 80px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__about-us {
+    width: 660px;
+  }
+
   &__title {
     font-size: 45px;
     line-height: 45px;
@@ -85,6 +128,8 @@
 
   // Статистика студии
   &__stats {
+    width: 360px;
+
     &-title {
       font-weight: 700;
       text-transform: uppercase;
@@ -100,6 +145,16 @@
       line-height: 18px;
       color: $second-color;
     }
+  }
+}
+
+// Студии
+.studios {
+  display: flex;
+  justify-content: space-between;
+
+  &__link {
+    width: 260px;
   }
 }
 

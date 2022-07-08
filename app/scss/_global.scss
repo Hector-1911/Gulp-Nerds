@@ -22,7 +22,7 @@ body {
   font-weight: 400;
   color: $main-color;
 
-  background-color: #ffffff;
+  background-color: #439f57;
 }
 
 img {
@@ -81,4 +81,11 @@ h6 {
 
   border: none;
   background-color: #fb565a;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  
+  width: 1200px;
 }

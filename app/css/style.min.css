@@ -20,7 +20,7 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #439f57;
 }
 
 img {
@@ -77,20 +77,54 @@ h6 {
   background-color: #fb565a;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 1200px;
+}
+
 .header {
   background-color: #eeeeee;
 }
 
 .header__top {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   line-height: 30px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
+.logo {
+  width: 160px;
+}
+
+.navigation {
+  width: 440px;
+}
+.navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 .navigation__link {
   color: #000000;
 }
 
+.cart {
+  width: 140px;
+}
 .cart__link {
   color: #000000;
 }
@@ -104,6 +138,20 @@ h6 {
   color: #283136;
 }
 
+.services {
+  padding: 80px 0;
+}
+.services__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.services__item {
+  width: 300px;
+}
 .services__title {
   font-size: 24px;
   line-height: 30px;
@@ -114,6 +162,21 @@ h6 {
   color: #283136;
 }
 
+.studio {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.studio__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.studio__about-us {
+  width: 660px;
+}
 .studio__title {
   font-size: 45px;
   line-height: 45px;
@@ -130,6 +193,9 @@ h6 {
   display: block;
   color: #283136;
 }
+.studio__stats {
+  width: 360px;
+}
 .studio__stats-title {
   font-weight: 700;
   text-transform: uppercase;
@@ -142,6 +208,18 @@ h6 {
 .studio__stats-text {
   line-height: 18px;
   color: #283136;
+}
+
+.studios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.studios__link {
+  width: 260px;
 }
 
 .contacts__name {
