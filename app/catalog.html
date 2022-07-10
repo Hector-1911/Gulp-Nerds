@@ -47,7 +47,7 @@
         </div>
       </div>
       <!-- Нижняя панель -->
-      <div class="header__bottom">
+      <div class="header__page-bottom">
         <!-- Заголовок страниц -->
         <h2 class="header__page-title">Магазин готовых шаблонов</h2>
       </div>
@@ -140,20 +140,22 @@
               <div class="sorting__wrapper">
                 <div class="sorting">
                   <h4 class="sorting__title">Сортировка:</h4>
-                  <ul class="sorting__list">
-                    <li class="sorting__item">
-                      <a class="sorting__button sorting__button--active" href="#" type="button">По цене</a>
-                    </li>
-                    <li class="sorting__item">
-                      <a class="sorting__button" href="#" type="button">По типу</a>
-                    </li>
-                    <li class="sorting__item">
-                      <a class="sorting__button" href="#" type="button">По названию</a>
-                    </li>
-                  </ul>
-                  <div class="sorting__arrows">
-                    <button class="sorting__arrow" type="button"></button>
-                    <button class="sorting__arrow" type="button"></button>
+                  <div class="sorting__buttons">
+                    <ul class="sorting__list">
+                      <li class="sorting__item">
+                        <a class="sorting__button sorting__button--active" href="#" type="button">По цене</a>
+                      </li>
+                      <li class="sorting__item">
+                        <a class="sorting__button" href="#" type="button">По типу</a>
+                      </li>
+                      <li class="sorting__item">
+                        <a class="sorting__button" href="#" type="button">По названию</a>
+                      </li>
+                    </ul>
+                    <div class="sorting__arrows">
+                      <button class="sorting__arrow" type="button"></button>
+                      <button class="sorting__arrow" type="button"></button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -233,47 +235,51 @@
         </div>
       </section>
     </div>
-    <!-- Контакты -->
-    <section class="contacts">
-      <div class="container">
-        <div class="contacts__inner">
-          <!-- Контактные данные -->
-          <div class="contacts__info">
-            <span class="contacts__name">NЁRDS DESIGN STUDIO</span>
-            <p class="contacts__address">
-              191186, Санкт-Петербург,
-              ул. Б. Конюшенная, д. 19/8
-            </p>
-            <a class="contacts__phone" href="">тел. +7 (812) 275-75-75</a>
-            <button class="contacts__button button" type="button">Напишите нам</button>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
   <!-- Футер -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__inner">
-        <!-- Социальные сети -->
-        <ul class="social">
-          <li class="social__item">
-            <a class="social__link" href=""></a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href=""></a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href=""></a>
-          </li>
-        </ul>
-        <!-- Слоган -->
-        <div class="footer__slogan">
-          <h3 class="footer__title">Давайте дружить, это выгодно!</h3>
-          <p class="footer__text">
-            Скидка 10% для друзей из социальных сетей.
+  <footer class="footer container">
+    <!-- Верхняя панель -->
+    <div class="footer__top">
+      <!-- Контакты -->
+      <section class="contacts">
+        <!-- Контактные данные -->
+        <div class="contacts__info">
+          <span class="contacts__name">NЁRDS DESIGN STUDIO</span>
+          <p class="contacts__address">
+            191186, Санкт-Петербург,
+            ул. Б. Конюшенная, д. 19/8
           </p>
+          <a class="contacts__phone" href="tel:78122757575">тел. +7 (812) 275-75-75</a>
+          <button class="contacts__button button" type="button">Напишите нам</button>
         </div>
+      </section>
+    </div>
+    <!-- Нижняя панель -->
+    <div class="footer__bottom">
+      <!-- Социальные сети -->
+      <ul class="social">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="social__image" src="images/svg/vk-icon.svg" alt="vkontakte">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="social__image" src="images/svg/fb-icon.svg" alt="facebook">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="social__image" src="images/svg/instagram-icon.svg" alt="instagram">
+          </a>
+        </li>
+      </ul>
+      <!-- Слоган -->
+      <div class="footer__slogan">
+        <h3 class="footer__title">Давайте дружить, это выгодно!</h3>
+        <p class="footer__text">
+          Скидка 10% для друзей из социальных сетей.
+        </p>
       </div>
     </div>
   </footer>

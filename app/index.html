@@ -54,22 +54,20 @@
           <div class="advantages__inner slider">
             <ul class="advantages__list slider__list">
               <li class="advantages__item slider__item">
-                <div class="advantages__content">
-                  <img class="advantages__image" src="images/png/index-slide-1.png" width="760" height="431"
-                    alt="Смартфоны">
+                <div class="advantages__info">
                   <h3 class="advantages__title">
                     Долго, дорого, скрупулезно.
                   </h3>
                   <p class="advantages__description">
                     Математически выверенный дизайн для вашего сайта или мобильного приложения.
                   </p>
-                  <a class="advantages__link button" href="#">Узнать больше</a>
+                  <button class="advantages__link button" href="#">Узнать больше</button>
                 </div>
+                <img class="advantages__image" src="images/png/index-slide-1.png" width="760" height="431"
+                  alt="Смартфоны">
               </li>
-              <li class="advantages__item slider__item">
-                <div class="advantages__content">
-                  <img class="advantages__image" src="images/png/index-slide-2.png" width="760" height="431"
-                    alt="Десктопы">
+              <!-- <li class="advantages__item slider__item">
+                <div class="advantages__info">
                   <h3 class="advantages__title">
                     Любим математику как никто другой
                   </h3>
@@ -78,11 +76,11 @@
                   </p>
                   <a class="advantages__link button" href="#">Узнать больше</a>
                 </div>
+                <img class="advantages__image" src="images/png/index-slide-2.png" width="760" height="431"
+                  alt="Десктопы">
               </li>
               <li class="advantages__item slider__item">
-                <div class="advantages__content">
-                  <img class="advantages__image" src="images/png/index-slide-3.png" width="760" height="431"
-                    alt="Планшеты">
+                <div class="advantages__info">
                   <h3 class="advantages__title">
                     Только ночь,
                     только хардкор
@@ -93,7 +91,9 @@
                   </p>
                   <a class="advantages__link button" href="#">Узнать больше</a>
                 </div>
-              </li>
+                <img class="advantages__image" src="images/png/index-slide-3.png" width="760" height="431"
+                  alt="Планшеты">
+              </li> -->
             </ul>
             <!-- Кнопки слайдера -->
             <div class="advantages__toggles slider__toggles">
@@ -164,8 +164,8 @@
           <div class="studio__stats">
             <img class="studio__stats-image" src="images/jpeg/nerds-illustration.jpg" width="360" height="208"
               alt="Nerds logo">
+            <h4 class="studio__stats-title">с 2004 года Любим точность во всем:</h4>
             <table class="studio__stats-table">
-              <caption class="studio__stats-title">с 2004 года Любим точность во всем:</caption>
               <tr class="studio__stats-column">
                 <th class="studio__stats-percent">146<sup>%</sup></th>
                 <th class="studio__stats-text">Уровень самоотдачи</th>
@@ -199,47 +199,51 @@
           <img class="studios__image" src="images/png/mishka-logo.png" width="260" height="180" alt="Mishka logo">
         </a>
       </section>
-      <!-- Контакты -->
-      <section class="contacts">
-        <div class="container">
-          <div class="contacts__inner">
-            <!-- Контактные данные -->
-            <div class="contacts__info">
-              <span class="contacts__name">NЁRDS DESIGN STUDIO</span>
-              <p class="contacts__address">
-                191186, Санкт-Петербург,
-                ул. Б. Конюшенная, д. 19/8
-              </p>
-              <a class="contacts__phone" href="tel:78122757575">тел. +7 (812) 275-75-75</a>
-              <button class="contacts__button button" type="button">Напишите нам</button>
-            </div>
-          </div>
-        </div>
-      </section>
   </main>
   <!-- Футер -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__inner">
-        <!-- Социальные сети -->
-        <ul class="social">
-          <li class="social__item">
-            <a class="social__link" href=""></a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href=""></a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href=""></a>
-          </li>
-        </ul>
-        <!-- Слоган -->
-        <div class="footer__slogan">
-          <h3 class="footer__title">Давайте дружить, это выгодно!</h3>
-          <p class="footer__text">
-            Скидка 10% для друзей из социальных сетей.
+  <footer class="footer container">
+    <!-- Верхняя панель -->
+    <div class="footer__top">
+      <!-- Контакты -->
+      <section class="contacts">
+        <!-- Контактные данные -->
+        <div class="contacts__info">
+          <span class="contacts__name">NЁRDS DESIGN STUDIO</span>
+          <p class="contacts__address">
+            191186, Санкт-Петербург,
+            ул. Б. Конюшенная, д. 19/8
           </p>
+          <a class="contacts__phone" href="tel:78122757575">тел. +7 (812) 275-75-75</a>
+          <button class="contacts__button button" type="button">Напишите нам</button>
         </div>
+      </section>
+    </div>
+    <!-- Нижняя панель -->
+    <div class="footer__bottom">
+      <!-- Социальные сети -->
+      <ul class="social">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="social__image" src="images/svg/vk-icon.svg" alt="vkontakte">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="social__image" src="images/svg/fb-icon.svg" alt="facebook">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="social__image" src="images/svg/instagram-icon.svg" alt="instagram">
+          </a>
+        </li>
+      </ul>
+      <!-- Слоган -->
+      <div class="footer__slogan">
+        <h3 class="footer__title">Давайте дружить, это выгодно!</h3>
+        <p class="footer__text">
+          Скидка 10% для друзей из социальных сетей.
+        </p>
       </div>
     </div>
   </footer>

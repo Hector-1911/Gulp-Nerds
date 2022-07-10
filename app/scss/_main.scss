@@ -2,13 +2,14 @@
 
 // Шапка //
 .header {
+  padding-top: 50px;
+
   background-color: #eeeeee;
 }
 
 // Верхняя панель
 .header__top {
-  padding-top: 50px;
-
+  max-height: 65px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,16 +21,23 @@
 
 // Логотип
 .logo {
-  width: 160px;
+  max-width: 160px;
+  max-height: 70px;
 }
 
 // Навигация
 .navigation {
-  width: 440px;
+  max-width: 440px;
 
   &__list {
     display: flex;
     justify-content: space-between;
+  }
+
+  &__item {
+    &+& {
+      margin-left: 47px;
+    }
   }
 
   &__link {
@@ -39,9 +47,11 @@
 
 // Корзина
 .cart {
-  width: 140px;
+  max-width: 140px;
 
   &__link {
+    padding-left: 42px;
+
     color: $main-color;
   }
 }
@@ -50,6 +60,15 @@
 
 // Преимущества
 .advantages {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    max-width: 380px;
+  }
+
   &__title {
     font-size: 55px;
     line-height: 55px;
@@ -58,6 +77,17 @@
 
   &__description {
     color: $second-color;
+  }
+
+  &__link {
+    display: block;
+
+    max-width: 240px;
+    max-height: 50px;
+    height: 100%;
+    width: 100%;
+
+    border-radius: 4px;
   }
 }
 
@@ -73,7 +103,7 @@
   }
 
   &__item {
-    width: 300px;
+    max-width: 300px;
   }
 
   &__title {
@@ -99,7 +129,7 @@
   }
 
   &__about-us {
-    width: 660px;
+    max-width: 660px;
   }
 
   &__title {
@@ -128,7 +158,17 @@
 
   // Статистика студии
   &__stats {
-    width: 360px;
+    max-width: 360px;
+
+    &-table tbody {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-column {
+      display: flex;
+      flex-direction: column;
+    }
 
     &-title {
       font-weight: 700;
@@ -189,12 +229,51 @@
     line-height: 22px;
     color: #444444;
   }
+
+  // Нижняя панель
+  &__bottom {
+    padding: 70px 0;
+
+    display: flex;
+  }
+}
+
+// Контакты
+.contacts {
+  width: 320px;
+
+  &__button {
+    display: block;
+  }
+
+  &__address {
+    margin: 0;
+  }
+}
+
+.social {
+  width: 260px;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__link {
+    display: block;
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+    background-color: #e1e1e1;
+  }
 }
 
 // Модальные окна //
 
 // Попап
 .popup {
+  width: 960px;
+  height: 590px;
+
   &__title {
     font-size: 45px;
     line-height: 45px;

@@ -1,20 +1,35 @@
 // Страница каталога //
 
 // Шапка //
+.header {
+  &__page-bottom {
+    padding: 50px 0;
+  }
 
-// Нижняя панель
-.header__page-title {
-  font-size: 55px;
-  line-height: 55px;
-  font-weight: 500;
+  &__page-title {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+    text-align: center;
+  }
 }
 
 // Основной контент //
 
 // Каталог товаров
+.catalog {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 // Фильтр товаров
 .filter {
+  &_wrapper {
+    max-width: 260px;
+  }
+
   &__field {
     margin: 0;
     padding: 0;
@@ -55,14 +70,38 @@
 }
 
 // Товары
+.products {
+  max-width: 760px;
+}
 
 // Сортировка товаров
 .sorting {
+  display: flex;
+  justify-content: space-between;
+
   &__title {
     font-size: 18px;
     line-height: 18px;
     font-weight: 700;
     text-transform: uppercase;
+  }
+
+  &__buttons {
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    &+& {
+      margin-left: 25px;
+    }
   }
 
   &__button {
@@ -77,6 +116,14 @@
 
 // Список товаров
 .product {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &__item {
+    max-width: 360px;
+  }
+
   &__title {
     font-size: 18px;
     line-height: 30px;
